@@ -94,4 +94,7 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 Stage 2 will involve; Creating Alerts & Automatically Generating Incidents (Analytics Rules)
 
 
+---
+---
+
 
