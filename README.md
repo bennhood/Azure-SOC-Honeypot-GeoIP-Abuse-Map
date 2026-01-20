@@ -80,7 +80,7 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 &nbsp;
 
 <img width="2434" height="1408" alt="AbuseEventID&#39;s" src="https://github.com/user-attachments/assets/fe7cf61c-1ace-4e6b-a779-c2a2f60d21ae" />
-*KQL searching to investigate which EventID's were triggered on the system and forwarded to our workspace, this will aid showcasing actual attacker moves on the system, captured eventID's such as 4625 highly likely indicate brute force attemtps (due to the number of attempts), 4672 likely indicates elevated privlliages, 4798/99 indicate system reconnaissance, 5379/82 indicate credential access/manipulation, which all indicate intrusion behavior - all triggered on the system within a 48hr period of being open to the public internet, automated attacks likely.*
+*KQL searching to investigate which EventID's were triggered on the system and forwarded to our workspace, this will aid showcasing actual attacker moves on the system, captured eventID's such as 4625 highly likely indicate brute force attemtps (due to the number of attempts), 4672 likely indicates elevated privlliages, 4798/99 indicate system reconnaissance, 5379/82 indicate credential access/manipulation, which all indicate intrusion behavior especially when grouped together - all triggered on the system within a 48hr period of being open to the public internet, automated attacks likely.*
 &nbsp;
 
 &nbsp;
