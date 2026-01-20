@@ -68,28 +68,31 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 &nbsp;
 
 <img width="2465" height="1526" alt="scrnli_0HpG23Msr8X27a" src="https://github.com/user-attachments/assets/4c926624-a239-4ab4-9725-a73ed3169210" />
-*Creating the visual geomap of abuse IP locations, using JSON*
+*Creating the visual geomap of abuse IP locations, using JSON.*
 &nbsp;
 
 &nbsp;
 
 <img width="2126" height="1512" alt="scrnli_UmMCO01oW1mJAb" src="https://github.com/user-attachments/assets/4c72da65-b7bb-4495-b63e-56a47d2e794c" />
-*The workbook presented, showing a global network of various attacking locations*
+*The workbook presented, showing a global network of various attacking locations.*
 &nbsp;
 
 &nbsp;
 
 <img width="2434" height="1408" alt="AbuseEventID&#39;s" src="https://github.com/user-attachments/assets/fe7cf61c-1ace-4e6b-a779-c2a2f60d21ae" />
-*KQL searching to investigate which EventID's were triggered on the system and forwarded to our workspace, this will aid showcasing actual attacker moves on the system, captured eventID's such as 4625 highly likely indicate brute force attemtps (due to the number of attempts), 4672 likely indicates elevated privlliages, 4798/99 indicate system reconnaissance, 5379/82 indicate credential access/manipulation, which all indicate intrusion behavior - all triggered on the system within a 48hr period of being open to the public internet, automated attacks likely*
+*KQL searching to investigate which EventID's were triggered on the system and forwarded to our workspace, this will aid showcasing actual attacker moves on the system, captured eventID's such as 4625 highly likely indicate brute force attemtps (due to the number of attempts), 4672 likely indicates elevated privlliages, 4798/99 indicate system reconnaissance, 5379/82 indicate credential access/manipulation, which all indicate intrusion behavior - all triggered on the system within a 48hr period of being open to the public internet, automated attacks likely.*
 &nbsp;
 
 &nbsp;
 
 <img width="2438" height="1436" alt="BruteForceCount" src="https://github.com/user-attachments/assets/7bf40c8e-875a-4862-9ec4-ba96ba8720a3" />
-*Further KQL searching into brute force possibility confirms a match, with thousands of attempts originating from multiple different IP addresses*
+*Further KQL searching into brute force possibility confirms a match, with thousands of attempts originating from multiple different IP addresses.*
 &nbsp;
+
 &nbsp;
+
 &nbsp;
+
 Stage 2 will involve; Creating Alerts & Automatically Generating Incidents (Analytics Rules)
 
 
