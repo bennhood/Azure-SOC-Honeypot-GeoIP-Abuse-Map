@@ -44,7 +44,8 @@ NSG being opened/disabled to allow all outside traffic - opening the honeypot.
 
 
 <img width="1939" height="1443" alt="scrnli_jR4ka5AfF22Wfo" src="https://github.com/user-attachments/assets/5c4abd88-259b-4152-9054-8e10b05f98c0" />
-Querying the forwarded logs from our VM, and searching for "4625 : Failed log on events - approximatly 13,000 events since opening up the VM to the net, highlighting the importance of proper defence and security controls.
+After creating a Log analytics work space, Configure the “Windows Security Events via AMA” connector and then create the DCR within sentinel.
+Screenshot: Querying the forwarded logs from our VM, and searching for "4625 : Failed log on events - approximatly 13,000 events since opening up the VM to the net, highlighting the importance of proper defence and security controls.
 
 ---
 
