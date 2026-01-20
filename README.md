@@ -29,14 +29,14 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 - Sentinel Workbooks for interactive dashboards and abuse mapping
 
 ## Steps
-|
-|
+&nbsp;
+&nbsp;
 <img width="1666" height="1113" alt="HONEYPOTATTACKMAPFINAL" src="https://github.com/user-attachments/assets/30e4612c-ab78-471a-af2c-93ba6a9c2db7" />
 *Overview of project scope and network map.*
-|
-|
-|
-|
+&nbsp;
+
+&nbsp;
+
 <img width="1019" height="1459" alt="scrnli_w27ti9I63lU57l" src="https://github.com/user-attachments/assets/c19095d7-1241-49dc-b9ff-b2f841035fae" />
 *NSG being opened/disabled to allow all outside traffic - opening the honeypot.*
 |
