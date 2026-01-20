@@ -62,7 +62,7 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 &nbsp;
 
 <img width="2459" height="1495" alt="scrnli_jQXtCvzKd4bS9s" src="https://github.com/user-attachments/assets/f0d6cbd4-cd00-4712-b855-fb6589e985b3" />
-*Isolating KQL searching to one IP result revealing 2,500 from this one IP - The volume, frequency, and uniformity of failed authentication attempts strongly indicate automated brute-force activity rather than manual interaction."
+*Isolating KQL searching to one IP result revealing 2,500 from this one IP - The volume, frequency, and uniformity of failed authentication attempts strongly indicate automated brute-force activity rather than manual interaction.*
 &nbsp;
 
 &nbsp;
@@ -86,10 +86,10 @@ This project was designed to simulate early-stage SOC monitoring tasks, reinforc
 &nbsp;
 
 <img width="2438" height="1436" alt="BruteForceCount" src="https://github.com/user-attachments/assets/7bf40c8e-875a-4862-9ec4-ba96ba8720a3" />
-*Further KQL searching into brute force possibility confirms a match, with thousands of attempts originating at a multiple different IP addresses*
+*Further KQL searching into brute force possibility confirms a match, with thousands of attempts originating from multiple different IP addresses*
 &nbsp;
-
-
+&nbsp;
+&nbsp;
 Stage 2 will involve; Creating Alerts & Automatically Generating Incidents (Analytics Rules)
 
 
