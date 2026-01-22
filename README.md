@@ -83,6 +83,8 @@ The workbook presented, showing a global network of various attacking locations.
 <img width="2434" height="1408" alt="AbuseEventID&#39;s" src="https://github.com/user-attachments/assets/fe7cf61c-1ace-4e6b-a779-c2a2f60d21ae" />
 KQL searching to investigate which EventID's were triggered on the system and forwarded to our workspace, this will aid showcasing actual attacker moves on the system, captured eventID's such as 4625 highly likely indicate brute force attemtps (due to the number of attempts), 4672 likely indicates elevated privlliages, 4798/99 indicate system reconnaissance, 5379/82 indicate credential access/manipulation, which all indicate intrusion behavior especially when grouped together - all triggered on the system within a 48hr period of being open to the public internet, automated attacks likely.
 
+The combination of these event types within 48 hours of internet exposure is consistent with automated intrusion attempts, particularly if volumes are abnormally high and sources are external/suspicious. However, investigation should confirm the context, sources, and patterns before definitively classifying as malicious. For example eventID 4672 can be triggered by scheduled tasks.
+
 ---
 
 
